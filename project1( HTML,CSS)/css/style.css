@@ -1,0 +1,395 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+#nav-img{
+    width: 122.07px;
+    height: 32px;
+}
+
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin:0px 20px 0px 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+}
+
+.nav-box .nav-links a{
+    margin: 0px 15px;
+}
+
+.nav-btns button{
+    margin:0px 5px;
+}
+
+#btn1{
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    padding: 9px 29px;
+    border-radius: 4px;
+    color: #18A0FB;
+    border: 1px solid #18A0FB;
+    font-size: 13px;
+}
+
+#btn2{
+    font-family: "Montserrat", sans-serif;
+    background-color: #18A0FB;
+    padding: 9px 24px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-size: 13px;
+}
+
+/*-----------------Section-1-----------------*/
+
+#section1{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/pic1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1349px;
+    height: 566px;
+    margin-top: 7px;
+}
+
+#section1 h1{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 80px;
+    text-align: center;
+    color:white;
+    justify-content: center;
+    padding-top: 290px;
+}
+
+#section1 button{
+    padding: 10px 25px;
+    font-size: 17px;
+    border-radius: 6px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #18A0FB;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.sec1-box{
+    text-align: center;
+}
+
+/*-----------------Section-2-----------------*/
+
+#section2{
+    margin: 100px 40px 0px 40px;
+}
+
+.section2-row1{
+    display: flex;
+}
+
+.section2-row2{
+    display: flex;
+}
+
+#section2 h1{
+    font-size: 44px;
+    font-weight: 580;
+    line-height: 65px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.box{
+    padding:30px;
+}
+
+.box h4{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.box p{
+    font-size: 14px;
+}
+
+.box button{
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 8px 23px;
+    border-radius: 6px;
+    background-color: #18A0FB;
+    color: white;
+    border: none;
+}
+
+/*-------------- Section-3 ---------------*/
+#section3{
+    margin-top: 110px;
+}
+
+.sect3-box h1{
+    font-size: 32px;
+    font-weight: 550;
+    text-align: center;  
+    margin-bottom: 30px;  
+}
+
+.sect3-box h3{
+    font-size: 24px;
+    font-weight: 380;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sect3-box2{
+    background:url(../images/pic2.png);
+    width: 500px;
+    height: 450px;
+}
+
+.sect3-container{
+    display: flex;
+    padding:6px;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.sec3-innerbox{
+    margin-top: 40px;
+}
+
+.sect3-box1 h4{
+    font-size: 22px;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+
+.sect3-box1 p{
+    font-size: 16px;
+    font-weight: 380;
+    line-height: 20px;
+}
+
+/*-------------- Section-4 ---------------*/
+
+#section4{
+    margin: 160px 0px 60px 0px;
+}
+
+.sect4-box h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 550;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.sect4-box h3{
+    font-size: 25px;
+    margin: 0px 40px 80px 40px;
+    font-weight: 370;
+    text-align: center;
+}
+
+.sect4-outerBox{
+    display: flex;
+    justify-content: space-around;
+    padding:0px 10px 0px 10px;
+}
+
+.sect4-innerBox h4{
+    font-size: 21px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sect4-innerBox p{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.sect4-innerBox{
+    border: 1px solid #CCCCCC;
+    margin:0px 20px 0px 20px;
+}
+
+.sect4-innerBox img{
+    width:370px;
+    height:220px;
+}
+
+/*-------------- Section-5 --------------*/
+
+#section5{
+    margin: 130px 0px 100px 0px;
+}
+
+.sect5-box h1{
+    font-size: 37px;
+    margin-bottom: 25px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.sect5-box h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-weight: 360;
+    text-align: center;
+}
+
+.form-box{
+   margin: auto;
+}
+
+.form-box form{
+    margin:0px 340px 0px 340px;
+    padding: 10px 30px 20px 0px;
+    border: 2px solid #CCCCCC;
+}
+
+.form-box h4{
+    font-size: 22px;
+    margin: 30px 0px 30px 0px;
+    padding: 10px 0px 20px 60px;
+}
+
+.form-box button{
+    display: block;
+    background-color: #18A0FB;
+    padding: 8px 23px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin: 20px 0px 20px 60px;
+    font-family: Montserrat;
+}
+
+.form-box input{
+    width:249px;
+    height:33px;
+    font-family: Montserrat;
+}
+
+#form-pass{
+    width:508px;
+}
+
+.form-row{
+    padding: 10px 0px 10px 60px;
+}
+
+/*--------------- Footer ---------------*/
+
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding:50px;
+}
+
+.footer-row1{
+    display: flex;
+}
+
+.row1-outerbox{
+    display: flex;
+    padding:0px 0px 0px 370px;
+}
+
+.row-box{
+    padding: 0px 70px 0px 30px;
+}
+
+.row-box h3{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    color:rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.row-box h4{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 300;
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.row-box4 button{
+    display: block;
+    margin-left: 30px;
+}
+
+#footer-btn1{
+    background-color: #18A0FB;
+    padding: 8px 23px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-family: Montserrat;
+    margin-bottom: 20px;
+}
+
+#footer-btn2{
+    background-color: white;
+    padding: 8px 30px;
+    border-radius: 3px;
+    color: #18A0FB;
+    border: 1px solid #18A0FB;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+.footer-row2{
+    width: 1250px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin:50px 0px 40px 0px;
+}
+
+.footer-row3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row3-box2{
+    display: flex;
+}
+
+.row3-box1 h4{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.row3-box2 h4{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0px 30px 0px 0px;
+}
+
+.row3-box2 a{
+    background-color: rgba(75, 75, 75, 1);
+    border:none;
+    padding:13px 12px 10px 12px;
+    border-radius: 50%;
+}
+
+

@@ -1,0 +1,17 @@
+/* Navbar */
+
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 350;
+  font-size:17px;
+  color:white;
+}
+
+/* Slider */
+#carouselExampleIndicators img{
+    height:500px;
+    width:680;
+}
+
+#carouselExampleIndicators button{
+    color:white;
+}
